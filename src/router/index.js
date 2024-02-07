@@ -17,7 +17,7 @@ import workFlow from './workFlow'
 Vue.use(VueRouter)
 
 const router = new VueRouter({
-    mode: 'history',
+    //mode: 'history',
     routes: [
         ...exampleRouter,
         // ...h5,
