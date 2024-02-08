@@ -225,12 +225,12 @@ const projectlists = [
         technology: "python,websckoet,c#,webAPI,redis,sqlserver,mongodb,python,VarN proxy",
         people: '1人',
         Projectmessage: [
-            '1. 对：Binance,Bitmex,OKEX,FTX,huobi,CoinBase,Bybit,deribit,等平台的全部交易对,采集,现货,合约（交割,永续）, 交易数据(行情波动大时,每小时数据量可达数亿条)',
+            '1. 对：Binance,Bitmex,OKEX,FTX,huobi,CoinBase,Bybit,deribit,等平台的全部交易对,采集,现货,合约（交割,永续）, 交易数据(行情波动大时,每小时数据量可达数十亿条)',
             '2. 对接上述平台的 公共数据 中英文 API ,采集 持仓数据,强平订单,费率,交易对,等信息',
             '3. 数据采集模块：通过websocket 采集 各个交易所的永续，现货，期货交易对的时序数据，将数据加入到消息队列中',
             '4. 数据清洗模块：对每一个交易信息数据进行 唯一性，完整性，一致性的处理，并对交易的价值进行计算，确认数据的完整性后移出队列',
             '5. 数据分析以及持久化模块：对每一个交易对数据进行小时汇总，得出单位小时内所有交易所 的一个交易对(BTC)的 永续，现货，期货 的净成交汇总数据',
-            '6. 数据可视化模块：开发中...',
+            '6. 数据可视化模块：展示 btc 净买卖量  最高，最低，总成交量 等 信息',
         ],
         picture: [
             require("@/static/project/projectcoindata/1.png"),

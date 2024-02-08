@@ -16,10 +16,10 @@
       <!-- <p><img v-bind:src="phones" alt="" /><a>13266705799</a></p> -->
     </div>
     <div class="right-info">
-      <p>{{ personalInfo.sex }} / {{ personalInfo.birthday }} / 29岁</p>
+      <p>{{ personalInfo.sex }} / {{ personalInfo.birthday }} / 31岁</p>
       <p>{{ personalInfo.university }} / {{ personalInfo.major }}</p>
       <p>{{ personalInfo.education }} / {{ personalInfo.graduation }}毕业</p>
-      <p>工作年限 / 6年</p>
+      <p>工作年限 / 8年</p>
       <!-- <p>英语 / {{ personalInfo.english }}</p> -->
     </div>
     <div style="margin-bottom: 40px">
@@ -34,9 +34,14 @@
           <p style="margin-left: 16px">东莞隽思印刷有限公司</p>
         </div>
         <div>
-          <span style="color: gray">2020.05 - 至今</span>
+          <span style="color: gray">2020.05 - 2022-02</span>
           <p style="margin-left: 16px">京瓷信息系统(上海)有限公司</p>
         </div>
+        <div>
+          <span style="color: gray">2022.03 - 至今</span>
+          <p style="margin-left: 16px">广东领益智造股份有限公司</p>
+        </div>
+
       </div>
     </div>
     <div class="right-skill">
@@ -44,17 +49,14 @@
       <!-- <a v-for="(item, index) in personalInfo.skillList" :key="index">{{
         item
       }}</a> -->
-<p>1、.C#/.NET、.NET Core、.NET MVC、Web API、RESTful API</p>
-<p>2、前端：js、jQuery、Vue.js、Vuex、IView、Element-UI、Bootstrap</p>
-<p>3、数据库：SQLServer、MySQL、Redis、MongoDB </p>
+<p>1、.C#/.NET、.NET Core、.NET MVC、RESTful API</p>
+<p>2、前端：js、Vue.js、Vuex、IView、Element-UI、Bootstrap、Webpack、</p>
+<p>3、数据库：SQLServer、Pgsql、MySQL、Redis、MongoDB </p>
 <p>4、ORM：Nhibernate、Dapper、Entity Framework、FreeSql、SqlSugar</p>
 <p>5、架构：领域驱动设计 DDD、</p>
 <p>6、环境：Windows、Linux、IIS、Nginx</p>
-
 <p>7、其他：微信小程序 Python：爬虫、办公自动化处理、图像处理</p>
-
-<p>8、工具：.Vscode、VS Studio、git、Svn、npm、yarn、Webpack、Docker、</p>
-
+<p>8、DevOps：Docker、git、GitLap、Portainer、Jenkins</p>
  </div>
 
 
